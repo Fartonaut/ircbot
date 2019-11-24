@@ -1,7 +1,8 @@
 # ircbot
 Dedication:
 
-	tyler569 for being cewl
+	tyler569 for being my personal google,
+	and also for generally being cool.
 	https://github.com/tyler569/
 	Artist rendition of tyler569:
 	

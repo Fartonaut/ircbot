@@ -8,11 +8,9 @@ const char *username = "Fartonaut";
 const char *password = "hunter2";
 char realname[11];
 //establish connection to interwebz
-//socket(AF_INET, 
+socket(AF_INET, SOCK
 
 int main() {
-	printf("username: %s\npassword: %s\n", username, password);
-	scanf("%11s", &realname);
-	printf("%s\n", strcmp(realname, "ok") ? realname : "boomer");
+	
 	return 0;
 }
