@@ -6,7 +6,7 @@ Dedication:
 	https://github.com/tyler569/
 	Artist rendition of tyler569:
 	
-	BBBB)
+	BBBBB)
 
-	(Yes, four sunglasses at once)
+	(Yes, five sunglasses at once)
 Note: Not actually an irc bot yet
