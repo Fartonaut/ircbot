@@ -13,6 +13,6 @@ char realname[11];
 int main() {
 	printf("username: %s\npassword: %s\n", username, password);
 	scanf("%11s", &realname);
-	printf("%s\n", realname);
+	printf("%s\n", realname == "ok" "boomer" : realname);
 	return 0;
 }
