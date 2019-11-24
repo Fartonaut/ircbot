@@ -8,3 +8,4 @@ Dedication:
 	BBBB)
 
 	(Yes, four sunglasses at once)
+Note: Not actually an irc bot yet
