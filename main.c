@@ -1,5 +1,5 @@
 #include <stdio.h>	
-
+#include <string.h>	//for string stuff
 #include <sys/types.h>	//needed on some legacy systems
 #include <sys/socket.h>	//needs above on legacy sytems
 
@@ -13,6 +13,6 @@ char realname[11];
 int main() {
 	printf("username: %s\npassword: %s\n", username, password);
 	scanf("%11s", &realname);
-	printf("%s\n", realname == "ok" "boomer" : realname);
+	printf("%s\n", strcmp(realname, "ok") ? realname : "boomer");
 	return 0;
 }
