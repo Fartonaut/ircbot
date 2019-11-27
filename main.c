@@ -7,6 +7,10 @@
 #include <netinet/ip.h> //soup set of ^
 #include <errno.h>	//no error
 
+//define things
+#define handleError(msg) \
+	do {perror(msg); exit(EXIT_FAILURE);} while(0)
+
 //super secret stuffz
 const char *username = "FartoBot";
 
@@ -22,7 +26,12 @@ char password[16];
 int soccSucc = socket(AF_INET, SOCK_STREAM, 0);
 
 int main() {
+	int soccSucc;
 	printf("Enter irc password: ");
 	scanf("%16s", &password);
+	
+	soccSucc = socket(AF_INET, SOCK_STREAM, 0);
+	if (soccSucc == -1) handleError("socket");
+
 	return 0;
 }

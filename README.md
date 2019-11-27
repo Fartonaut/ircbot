@@ -1,4 +1,4 @@
-# ircbot
+# ircbot (on hold for a while)
 Dedication:
 
 	tyler569 for being my personal google,
